@@ -40,7 +40,7 @@ time.sleep(5)
 # 跳转到化工商户页面的url
 driver.get(url)
 # 新建一个data.csv文件，并且将数据保存到csv中
-csvfile = file('data.csv', 'web')
+csvfile = file('data.csv', 'wb')
 writer = csv.writer(csvfile)
 # 写入标题，我们采集企业名称，主页，产品，联系人，电话和地址信息
 writer.writerow((
