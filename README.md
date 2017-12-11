@@ -14,4 +14,5 @@ Firefox浏览器(火狐浏览器)
 cmd命令行
 
 工具安装：
-Sublime是一款轻量文本编辑工具，可以用来快速编写python脚本，这里就不多作介绍，详情自己百度。本期所需的工具包是selenium，用户需要自行安装，可以通过pip命令快速安装selenium.【>pip install selenium】
+1. Sublime是一款轻量文本编辑工具，可以用来快速编写python脚本，这里就不多作介绍，详情自己百度。本期所需的工具包是selenium，用户需要自行安装，可以通过pip命令快速安装selenium.【>pip install selenium】
+2. 安装 numpy ，本项目代码中有使用到，【>pip install numpy】
